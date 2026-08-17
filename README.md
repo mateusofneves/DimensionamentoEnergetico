@@ -4,11 +4,12 @@ Sistema para estimativa do consumo médio mensal de energia elétrica de uma res
 
 # Integrantes
 
-| Nome                               | RM     |
-| Mateus de Oliveira Fernandes Neves | 572431 |
-| Paulo Henrique Lira Bilac          | 569496 | 
-| Pedro Soares de Souza              | 571285 | 
-| Olavo Dadario Vianna Barreto       | 569272 |
+| Nome | RM |
+|------------|------------|
+| Mateus de Oliveira Fernandes Neves | RM572431 |
+| Paulo Henrique Lira Bilac | RM569496 | 
+| Pedro Soares de Souza | RM571285 | 
+| Olavo Dadario Vianna Barreto | RM569272 |
 
 # Funcionalidades
 
@@ -20,8 +21,6 @@ Sistema para estimativa do consumo médio mensal de energia elétrica de uma res
 * Gerar relatório (user / sistema)
 * Gerar calculos (sistema)
 * Sair (user)
-
-# Fluxograma
 
 # Objetivo Final
 
