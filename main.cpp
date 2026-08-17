@@ -1,7 +1,17 @@
 #include <stdio.h>
-using namespace std;
 
 void menu()
+{
+    std::cout << "========== SISTEMA MONITORA ENERGIA ==========" << endl;
+
+    return 0;
+}
+
+void consumo()
+{
+}
+
+void relatorio()
 {
 }
 
