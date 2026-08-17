@@ -7,15 +7,50 @@ void menu()
     cout << "*****************************************" << endl;
     cout << "***  Bem-vindo ao sistema energético  ***" << endl;
     cout << "*****************************************" << endl;
-    cout << "01 - Cadastrar" << endl;
-    cout << "02 - Relatório" << endl;
-    cout << "03 - Sair" << endl;
+    cout << "01 - Cadastrar residência" << endl;
+    cout << "02 - Remover residência" << endl;
+    cout << "03 - Relatório" << endl;
+    cout << "04 - Sair" << endl;
 
     return;
 }
 
+// adicionar equipamento, informar potencia do equipamento e informar quantidade de equipamentos.
+void CadastrarResidencia()
+{
+
+}
+
+void removerResidencia()
+{
+
+}
+
+double calcularConsumo(double potencia, int quantidade, double horasPorDia)
+{
+    double consumo = (potencia * quantidade * horasPorDia * 30) / 1000;
+
+    return consumo;
+}
+
 void consumo()
 {
+    double potencia;
+    int quantidade;
+    double horasPorDia;
+
+    cout << "Digite a potencia: ";
+    cin >> potencia;
+
+    cout << "Digite a quantidade: ";
+    cin >> quantidade;
+
+    cout << "Digite as horas por dia: ";
+    cin >> horasPorDia;
+
+    double resultado = calcularConsumo(potencia, quantidade, horasPorDia);
+
+    cout << "Consumo: " << resultado << " kWh" << endl;
 }
 
 void relatorio()
