@@ -2,6 +2,14 @@
  
 Sistema para estimativa do consumo médio mensal de energia elétrica de uma residência, considerando os equipamentos elétricos utilizados, suas potências, quantidades e tempo médio diário de utilização.
 
+# Integrantes
+
+| Nome                               | RM     |
+| Mateus de Oliveira Fernandes Neves | 572431 |
+| Paulo Henrique Lira Bilac          | 569496 | 
+| Pedro Soares de Souza              | 571285 | 
+| Olavo Dadario Vianna Barreto       | 569272 |
+
 # Funcionalidades
 
 * Adicionar informações da residência (user)
