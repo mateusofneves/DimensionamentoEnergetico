@@ -24,6 +24,7 @@ Sistema para estimativa do consumo médio mensal de energia elétrica de uma res
 
 # Product Backlog - Sistema de Dimensionamento Energético Residencial
 
+
 # Product Backlog
 
 | ID   | Utilizador (Épico) | User Story                                                                                                            |
@@ -43,6 +44,17 @@ Sistema para estimativa do consumo médio mensal de energia elétrica de uma res
 | PB13 | Validação          | Como usuário, quero ser alertado sobre dados de consumo inválidos ou incompletos antes de realizar o dimensionamento. |
 | PB14 | Persistência | Como usuário, quero que os dados permaneçam disponíveis após sair do sistema. |
 | PB15 | Segurança | Como usuário, quero que os dados dos meus imóveis sejam privados. |
+
+# Termos de Aceite
+
+*  O usuário deve conseguir **cadastrar e acessar sua conta**.
+*  O usuário deve conseguir **cadastrar, editar e excluir imóveis**.
+*  O usuário deve conseguir **informar os equipamentos, suas potências, quantidades e tempo de uso**.
+*  O sistema deve **calcular o consumo estimado em kWh/mês**.
+*  O sistema deve apresentar o **consumo médio e o maior consumo mensal**.
+*  O usuário deve conseguir **visualizar o histórico e um gráfico de consumo**.
+*  O sistema deve **validar dados incorretos ou incompletos**.
+*  Os dados devem ser **salvos e protegidos para cada usuário**.
 
 # Objetivo Final
 
