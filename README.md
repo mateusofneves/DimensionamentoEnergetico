@@ -45,25 +45,21 @@ Sistema para estimativa do consumo médio mensal de energia elétrica de uma res
 | PB14 | Persistência       | Como usuário, quero que os dados permaneçam disponíveis após sair do sistema.                                         |
 | PB15 | Segurança          | Como usuário, quero que os dados dos meus imóveis sejam privados.                                                     |
 
-# Prioridade
+Termos de Prioridade
 
-| ID   | Prioridade |
-| ---- | ---------- |
-| PB01 | **Alta**   |
-| PB02 | **Alta**   |
-| PB03 | **Alta**   |
-| PB04 | **Média**  |
-| PB05 | **Alta**   |
-| PB06 | **Alta**   |
-| PB07 | **Média**  |
-| PB08 | **Alta**   |
-| PB09 | **Alta**   |
-| PB10 | **Média**  |
-| PB11 | **Alta**   |
-| PB12 | **Média**  |
-| PB13 | **Alta**   |
-| PB14 | **Alta**   |
-| PB15 | **Alta**   |
+Alta: Cadastro, login e gerenciamento dos imóveis.
+
+Alta: Cadastro dos equipamentos, potência, quantidade e tempo de uso.
+
+Alta: Cálculo do consumo estimado em kWh/mês.
+
+Alta: Apresentação do consumo médio e maior consumo.
+
+Média: Histórico e gráfico de consumo.
+
+Média: Validação de dados incorretos ou incompletos.
+
+Baixa: Melhorias de visualização e recursos adicion
 
 # Termos de aceite
 | ID   | Termo de Aceite                                                                    |
