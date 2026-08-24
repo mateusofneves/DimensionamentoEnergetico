@@ -27,34 +27,42 @@ Sistema para estimativa do consumo médio mensal de energia elétrica de uma res
 
 # Product Backlog
 
-| ID   | Utilizador (Épico) | User Story                                                                                                            |
-| ---- | ------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| PB01 | Usuário            | Como usuário, quero me cadastrar no sistema para manter meus imóveis e análises salvos.                               |
-| PB02 | Usuário            | Como usuário, quero acessar minha conta para consultar meus imóveis cadastrados.                                      |
-| PB03 | Imóvel             | Como usuário, quero cadastrar um imóvel para realizar seu dimensionamento energético.                                 |
-| PB04 | Imóvel             | Como usuário, quero editar ou excluir um imóvel cadastrado.                                                           |
-| PB05 | Consumo            | Como usuário, quero informar o consumo mensal de energia do imóvel.                                                   |
-| PB06 | Consumo            | Como usuário, quero cadastrar vários meses de consumo para representar melhor o perfil energético da residência.      |
-| PB07 | Consumo            | Como usuário, quero consultar o histórico de consumo do imóvel.                                                       |
-| PB08 | Dimensionamento    | Como usuário, quero que o sistema identifique automaticamente o maior consumo mensal registrado.                      |
-| PB09 | Dimensionamento    | Como usuário, quero visualizar também o consumo médio mensal para contextualizar o pico de consumo.                   |
-| PB10 | Dimensionamento    | Como usuário, quero saber em qual mês ocorreu o maior consumo.                                                        |
-| PB11 | Resultado          | Como usuário, quero visualizar um resumo energético do imóvel.                                                        |
-| PB12 | Resultado          | Como usuário, quero visualizar graficamente meu histórico de consumo.                                                 |
-| PB13 | Validação          | Como usuário, quero ser alertado sobre dados de consumo inválidos ou incompletos antes de realizar o dimensionamento. |
-| PB14 | Persistência | Como usuário, quero que os dados permaneçam disponíveis após sair do sistema. |
-| PB15 | Segurança | Como usuário, quero que os dados dos meus imóveis sejam privados. |
+| ID   | Utilizador (Épico) | User Story                                                                                                            | Prioridade |
+| ---- | ------------------ | --------------------------------------------------------------------------------------------------------------------- | ---------- |
+| PB01 | Usuário            | Como usuário, quero me cadastrar no sistema para manter meus imóveis e análises salvos.                               | **Alta**   |
+| PB02 | Usuário            | Como usuário, quero acessar minha conta para consultar meus imóveis cadastrados.                                      | **Alta**   |
+| PB03 | Imóvel             | Como usuário, quero cadastrar um imóvel para realizar seu dimensionamento energético.                                 | **Alta**   |
+| PB04 | Imóvel             | Como usuário, quero editar ou excluir um imóvel cadastrado.                                                           | **Média**  |
+| PB05 | Consumo            | Como usuário, quero informar o consumo mensal de energia do imóvel.                                                   | **Alta**   |
+| PB06 | Consumo            | Como usuário, quero cadastrar vários meses de consumo para representar melhor o perfil energético da residência.      | **Alta**   |
+| PB07 | Consumo            | Como usuário, quero consultar o histórico de consumo do imóvel.                                                       | **Média**  |
+| PB08 | Dimensionamento    | Como usuário, quero que o sistema identifique automaticamente o maior consumo mensal registrado.                      | **Alta**   |
+| PB09 | Dimensionamento    | Como usuário, quero visualizar também o consumo médio mensal para contextualizar o pico de consumo.                   | **Alta**   |
+| PB10 | Dimensionamento    | Como usuário, quero saber em qual mês ocorreu o maior consumo.                                                        | **Média**  |
+| PB11 | Resultado          | Como usuário, quero visualizar um resumo energético do imóvel.                                                        | **Alta**   |
+| PB12 | Resultado          | Como usuário, quero visualizar graficamente meu histórico de consumo.                                                 | **Média**  |
+| PB13 | Validação          | Como usuário, quero ser alertado sobre dados de consumo inválidos ou incompletos antes de realizar o dimensionamento. | **Alta**   |
+| PB14 | Persistência       | Como usuário, quero que os dados permaneçam disponíveis após sair do sistema.                                         | **Alta**   |
+| PB15 | Segurança          | Como usuário, quero que os dados dos meus imóveis sejam privados.                                                     | **Alta**   |
 
-# Termos de Aceite
 
-*  O usuário deve conseguir **cadastrar e acessar sua conta**.
-*  O usuário deve conseguir **cadastrar, editar e excluir imóveis**.
-*  O usuário deve conseguir **informar os equipamentos, suas potências, quantidades e tempo de uso**.
-*  O sistema deve **calcular o consumo estimado em kWh/mês**.
-*  O sistema deve apresentar o **consumo médio e o maior consumo mensal**.
-*  O usuário deve conseguir **visualizar o histórico e um gráfico de consumo**.
-*  O sistema deve **validar dados incorretos ou incompletos**.
-*  Os dados devem ser **salvos e protegidos para cada usuário**.
+| ID   | Termo de Aceite                                                                    |
+| ---- | ---------------------------------------------------------------------------------- |
+| PB01 | O usuário deve conseguir criar uma conta preenchendo os dados necessários.         |
+| PB02 | O usuário deve conseguir realizar login e acessar seus imóveis cadastrados.        |
+| PB03 | O usuário deve conseguir cadastrar um imóvel e visualizar seus dados.              |
+| PB04 | O usuário deve conseguir editar ou excluir um imóvel cadastrado.                   |
+| PB05 | O sistema deve permitir informar o consumo mensal em kWh.                          |
+| PB06 | O usuário deve conseguir cadastrar o consumo de diferentes meses.                  |
+| PB07 | O sistema deve apresentar o histórico de consumo do imóvel.                        |
+| PB08 | O sistema deve identificar e apresentar o maior consumo registrado.                |
+| PB09 | O sistema deve calcular e apresentar o consumo médio mensal.                       |
+| PB10 | O sistema deve informar o mês em que ocorreu o maior consumo.                      |
+| PB11 | O sistema deve apresentar um resumo com os principais dados energéticos do imóvel. |
+| PB12 | O sistema deve gerar um gráfico utilizando o histórico de consumo.                 |
+| PB13 | O sistema deve alertar o usuário quando houver dados inválidos ou incompletos.     |
+| PB14 | Os dados cadastrados devem permanecer disponíveis após o usuário sair do sistema.  |
+| PB15 | O usuário deve conseguir acessar somente os dados dos seus próprios imóveis.       |
 
 # Objetivo Final
 
