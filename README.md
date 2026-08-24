@@ -45,6 +45,8 @@ Sistema para estimativa do consumo médio mensal de energia elétrica de uma res
 | PB14 | Persistência       | Como usuário, quero que os dados permaneçam disponíveis após sair do sistema.                                         |
 | PB15 | Segurança          | Como usuário, quero que os dados dos meus imóveis sejam privados.                                                     |
 
+# Prioridade 
+
 | Prioridade | Funcionalidades                                                 |
 | ---------- | --------------------------------------------------------------- |
 | **Alta**   | Cadastro, login e gerenciamento dos imóveis.                    |
