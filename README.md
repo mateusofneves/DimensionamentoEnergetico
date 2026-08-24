@@ -44,20 +44,6 @@ Sistema para estimativa do consumo médio mensal de energia elétrica de uma res
 | PB13 | Validação          | Como usuário, quero ser alertado sobre dados de consumo inválidos ou incompletos antes de realizar o dimensionamento. |
 | PB14 | Persistência       | Como usuário, quero que os dados permaneçam disponíveis após sair do sistema.                                         |
 | PB15 | Segurança          | Como usuário, quero que os dados dos meus imóveis sejam privados.                                                     |
-
-# Prioridade 
-
-| Prioridade | Funcionalidades                                                 |
-| ---------- | --------------------------------------------------------------- |
-| **Alta**   | Cadastro, login e gerenciamento dos imóveis.                    |
-| **Alta**   | Cadastro dos equipamentos, potência, quantidade e tempo de uso. |
-| **Alta**   | Cálculo do consumo estimado em kWh/mês.                         |
-| **Alta**   | Apresentação do consumo médio e maior consumo.                  |
-| **Média**  | Histórico e gráfico de consumo.                                 |
-| **Média**  | Validação de dados incorretos ou incompletos.                   |
-| **Baixa**  | Melhorias de visualização e recursos adicionais.                |
-
-
 # Termos de aceite
 | ID   | Termo de Aceite                                                                    |
 | ---- | ---------------------------------------------------------------------------------- |
@@ -76,6 +62,18 @@ Sistema para estimativa do consumo médio mensal de energia elétrica de uma res
 | PB13 | O sistema deve alertar o usuário quando houver dados inválidos ou incompletos.     |
 | PB14 | Os dados cadastrados devem permanecer disponíveis após o usuário sair do sistema.  |
 | PB15 | O usuário deve conseguir acessar somente os dados dos seus próprios imóveis.       |
+
+# Prioridade 
+
+| Prioridade | Funcionalidades                                                 |
+| ---------- | --------------------------------------------------------------- |
+| **Alta**   | Cadastro, login e gerenciamento dos imóveis.                    |
+| **Alta**   | Cadastro dos equipamentos, potência, quantidade e tempo de uso. |
+| **Alta**   | Cálculo do consumo estimado em kWh/mês.                         |
+| **Alta**   | Apresentação do consumo médio e maior consumo.                  |
+| **Média**  | Histórico e gráfico de consumo.                                 |
+| **Média**  | Validação de dados incorretos ou incompletos.                   |
+| **Baixa**  | Melhorias de visualização e recursos adicionais.                |
 
 # Objetivo Final
 
