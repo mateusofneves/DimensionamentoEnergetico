@@ -44,7 +44,9 @@ Sistema para estimativa do consumo médio mensal de energia elétrica de uma res
 | PB13 | Validação          | Como usuário, quero ser alertado sobre dados de consumo inválidos ou incompletos antes de realizar o dimensionamento. |
 | PB14 | Persistência       | Como usuário, quero que os dados permaneçam disponíveis após sair do sistema.                                         |
 | PB15 | Segurança          | Como usuário, quero que os dados dos meus imóveis sejam privados.                                                     |
+
 # Termos de aceite
+
 | ID   | Termo de Aceite                                                                    |
 | ---- | ---------------------------------------------------------------------------------- |
 | PB01 | O usuário deve conseguir criar uma conta preenchendo os dados necessários.         |
