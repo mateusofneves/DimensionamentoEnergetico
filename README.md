@@ -75,6 +75,44 @@ Sistema para estimativa do consumo médio mensal de energia elétrica de uma res
 | **Média**  | Validação de dados incorretos ou incompletos.                   |
 | **Baixa**  | Melhorias de visualização e recursos adicionais.                |
 
+# Tasks
+
+| ID | Task | Relacionada | Prioridade |
+|---|---|---|---|
+| T01 | Criar estrutura inicial do sistema | — | Alta |
+| T02 | Criar menu principal | — | Alta |
+| T03 | Criar cadastro de usuário | PB01 | Alta |
+| T04 | Validar dados do cadastro | PB01/PB13 | Alta |
+| T05 | Criar sistema de login | PB02 | Alta |
+| T06 | Validar usuário e senha | PB02/PB13 | Alta |
+| T07 | Criar sistema de logout | PB02 | Média |
+| T08 | Criar cadastro de imóvel | PB03 | Alta |
+| T09 | Listar imóveis cadastrados | PB03 | Alta |
+| T10 | Criar edição de imóvel | PB04 | Alta |
+| T11 | Criar exclusão de imóvel | PB04 | Alta |
+| T12 | Criar cadastro de equipamentos | PB03/PB05 | Alta |
+| T13 | Informar potência do equipamento | PB05 | Alta |
+| T14 | Informar quantidade de equipamentos | PB05 | Alta |
+| T15 | Informar tempo médio diário de uso | PB05 | Alta |
+| T16 | Criar cálculo de consumo por equipamento | PB05/PB08 | Alta |
+| T17 | Calcular consumo total mensal | PB08/PB09 | Alta |
+| T18 | Identificar maior consumo | PB08 | Alta |
+| T19 | Calcular consumo médio mensal | PB09 | Alta |
+| T20 | Identificar mês de maior consumo | PB10 | Alta |
+| T21 | Registrar consumo mensal | PB06 | Alta |
+| T22 | Criar histórico de consumo | PB07 | Média |
+| T23 | Criar resumo energético | PB11 | Média |
+| T24 | Criar gráfico de consumo | PB12 | Média |
+| T25 | Criar validação dos dados | PB13 | Média |
+| T26 | Implementar salvamento dos dados | PB14 | Alta |
+| T27 | Implementar carregamento dos dados | PB14 | Alta |
+| T28 | Garantir que os dados sejam vinculados ao usuário | PB15 | Alta |
+| T29 | Impedir acesso aos imóveis de outros usuários | PB15 | Alta |
+| T30 | Criar relatório final | PB11/PB12 | Média |
+| T31 | Realizar testes do sistema | Todos | Alta |
+| T32 | Corrigir erros encontrados nos testes | Todos | Alta |
+| T33 | Documentar funcionamento no README | — | Média |
+
 # Objetivo Final
 
 O objetivo do sistema é fornecer de uma forma simples o consumo médio mensal de energia elétrica de uma residência, permitindo ao usuário visualizar quais equipamentos possuem maior participação no consumo e obter uma estimativa geral em kWh/mês.
