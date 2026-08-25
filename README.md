@@ -45,7 +45,7 @@ Sistema para estimativa do consumo médio mensal de energia elétrica de uma res
 | PB14 | Persistência       | Como usuário, quero que os dados permaneçam disponíveis após sair do sistema.                                         |
 | PB15 | Segurança          | Como usuário, quero que os dados dos meus imóveis sejam privados.                                                     |
 
-# Termos de aceite
+# Termos de Aceite
 
 | ID   | Termo de Aceite                                                                    |
 | ---- | ---------------------------------------------------------------------------------- |
