@@ -1,4 +1,29 @@
-*.exe
-*.o
-*.out
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+src/__pycache__/
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Distribuição / build
+build/
+dist/
+*.egg-info/
+
+# Testes / cache
+.pytest_cache/
+.mypy_cache/
+
+# Configuração local / dados sensíveis
+.env
+*.db
+*.sqlite3
+
+# Editor / SO
 .vscode/
+.idea/
+.DS_Store
