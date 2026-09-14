@@ -166,3 +166,6 @@ Com essas informações, o sistema consegue apresentar dados como consumo médio
 Durante o desenvolvimento do projeto, aprendemos a estruturar uma aplicação em Python utilizando diferentes módulos e separando as responsabilidades do sistema. Também trabalhamos com cadastro e autenticação de usuários, validação de dados, manipulação e persistência de informações, além da criação de cálculos para estimar o consumo de energia.
 
 Também aprendemos a desenvolver uma interface web utilizando Flask, conectar páginas HTML com as regras de negócio do sistema e utilizar sessões para controlar o acesso dos usuários. Além disso, praticamos organização de código, criação de funções, integração entre arquivos, tratamento de erros, testes e documentação do projeto por meio do README.
+
+Segue o link do nosso trello:
+https://trello.com/invite/b/6aa7d9e636c3ec2b40b87af4/ATTI8080d2f0db16edd0fb6b5178bab927e8A19251D5/dimensionamento-energetico
